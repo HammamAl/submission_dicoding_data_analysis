@@ -1,5 +1,7 @@
 # E-Commerce Delivery & Review Dashboard
 
+Link Streamlit : https://cyhteqnuwauwezhr5co7bz.streamlit.app
+
 ## Deskripsi Proyek
 
 Proyek ini menganalisis dataset publik E-Commerce Brasil untuk menjawab pertanyaan bisnis terkait hubungan waktu pengiriman dengan rating review, serta perilaku pembelian ulang pelanggan setelah pengalaman negatif. Analisis dilakukan mulai dari data wrangling, eksplorasi, visualisasi, hingga insight dan rekomendasi bisnis.  
