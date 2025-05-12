@@ -163,7 +163,7 @@ with tab2:
     st.subheader("Rata-rata Waktu Pengiriman per State")
     state_delivery = df_filtered.groupby('customer_state')['delivery_time_days'].mean().reset_index()
     # Load shapefile Brazil
-    brazil_states = gpd.read_file('../data/brazil_states_shapefile/brazil_states_shapefile.shp')
+    brazil_states = gpd.read_file('data/brazil_states_shapefile/brazil_states_shapefile.shp')
     uf_mapping = {
         'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas', 'BA': 'Bahia',
         'CE': 'Ceará', 'DF': 'Distrito Federal', 'ES': 'Espírito Santo', 'GO': 'Goiás',
