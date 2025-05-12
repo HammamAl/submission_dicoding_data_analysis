@@ -14,7 +14,7 @@ st.markdown("Insight utama pengiriman, rating, perilaku pelanggan, dan analisis 
 # Load data utama
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv("dashboard/main_data.csv")
     date_cols = [
         'order_purchase_timestamp',
         'order_delivered_customer_date',
