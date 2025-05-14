@@ -4,3 +4,4 @@ matplotlib
 seaborn
 geopandas
 pydeck
+numpy

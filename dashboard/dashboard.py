@@ -17,14 +17,14 @@ st.set_page_config(
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv('main_data.csv')
+    return pd.read_csv('dashboard/main_data.csv')
 
 main_data = load_data()
 
 # Load delivery_review_df.csv untuk visualisasi 1-4
 @st.cache_data
 def load_delivery_review():
-    return pd.read_csv('delivery_review_df.csv', parse_dates=[
+    return pd.read_csv('dashboard/delivery_review_df.csv', parse_dates=[
         'order_purchase_timestamp', 'order_delivered_customer_date', 'order_estimated_delivery_date'
     ])
 delivery_review_df = load_delivery_review()
