@@ -24,7 +24,7 @@ conda create –name brazil-ecommerce python=3.9
 conda activate brazil-ecommerce
 ```
 
-## 3. Membuat virtual environment dan menjalankan virtual environemnt di terminal/bash
+## 3. Membuat virtual environment dan menjalankan virtual environment di terminal/bash
 
 - Membuat virtual environment di terminal/bash
 
