@@ -4,43 +4,61 @@ Dashboard analisis data e-commerce Brazil yang menampilkan insight tentang pola 
 
 ## Setup Environment
 
-### Menggunakan Anaconda
+## 1. Menginstall dependencies
 
-bash
+```
+pip install -r requirements.txt
+```
 
-# Membuat environment baru
+## 2. Menggunakan Anaconda
 
+- Membuat environment baru
+
+```
 conda create –name brazil-ecommerce python=3.9
+```
 
-# Mengaktifkan environment
+- Mengaktifkan environment
 
+```
 conda activate brazil-ecommerce
+```
 
-# Menginstall dependencies
+## 3. Membuat virtual environment dan menjalankan virtual environemnt di terminal/bash
 
-pip install -r requirements.txt
+- Membuat virtual environment di terminal/bash
 
-### Menggunakan Pip Virtual Environment
-
-bash
-
-# Membuat virtual environment
-
+```
 python -m venv env
+```
 
-# Mengaktifkan virtual environment
+- Mengaktifkan virtual environment
 
-# Untuk Windows
+pastikan saat mengatifkan virtual environmetn berada pada direktori /submission
 
-env# Untuk MacOS/Linux
+- Untuk Windows
+
+untuk cmd :
+
+```
+.\env\Scripts\activate.bat
+```
+
+untuk powershell :
+
+```
+.\env\Scripts\Activate.ps1
+```
+
+- Untuk MacOS/Linux
+
+```
 source env/bin/activate
-
-# Menginstall dependencies
-
-pip install -r requirements.txt
+```
 
 ## Struktur Direktori
 
+```
 submission/
 ├── dashboard/
 │ ├── dashboard.py
@@ -56,14 +74,15 @@ submission/
 ├── notebook.ipynb
 ├── README.md
 └── requirements.txt
+```
 
 ## Menjalankan Dashboard
 
 1. Pastikan Anda berada di direktori utama (submission/)
 2. Jalankan perintah berikut:
-   bash
+   ```
    streamlit run dashboard/dashboard.py
-
+   ```
 3. Dashboard akan terbuka secara otomatis di browser Anda pada alamat http://localhost:8501
 
 ## Fitur Dashboard
